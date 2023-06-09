@@ -16,6 +16,11 @@ h1 {
   font-family: "Space Mono", monospace;
 }
 
+h2 {
+  font-family: "DM Mono", monospace;
+  text-align: center;
+}
+
 h5 {
   font-size: 25px;
 }
