@@ -1,11 +1,19 @@
+/*
+font-family: 'DM Mono', monospace;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Space Mono', monospace;
+*/
+
 body {
   background: linear-gradient(126deg, rgb(29, 26, 54) 0%, rgb(19, 20, 80) 100%)
     fixed;
   color: white;
+  font-family: "Quicksand", sans-serif;
 }
 h1 {
   font-size: 55px;
   line-height: 60px;
+  font-family: "Space Mono", monospace;
 }
 
 h5 {
@@ -14,12 +22,12 @@ h5 {
 
 h6 {
   font-size: 18px;
-  padding: 15px;
+  padding: 15px 0px;
+  color: #ccdafc;
 }
 
 .hero-section {
-  text-align: center;
-  margin: 50px;
+  margin: 60px 70px;
   padding: 20px;
 }
 
@@ -27,17 +35,15 @@ h6 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 20px;
+  text-align: center;
 }
 
 .hero-right {
-  padding: 25px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.hero-buttons {
-  margin: 10px;
 }
 
 .profile-picture {
@@ -47,7 +53,7 @@ h6 {
 }
 
 .icons-section {
-  margin: 5px;
+  text-align: center;
   padding: 5px;
 }
 
@@ -78,9 +84,12 @@ h6 {
   cursor: pointer;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   h1 {
-    font-size: 40px;
+    font-size: 37px;
     line-height: 60px;
+  }
+  .hero-buttons {
+    text-align: center;
   }
 }
