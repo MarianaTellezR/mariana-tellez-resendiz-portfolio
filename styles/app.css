@@ -84,12 +84,20 @@ h6 {
   margin: 25px auto;
   padding: 15px 0px;
   text-align: center;
-  max-width: 70%;
+  max-width: 60%;
 }
 
 .recent-projects img {
-  border-radius: 15px;
   margin: 12px;
+  border-radius: 15px;
+}
+
+.projects-grid img {
+  transition: all 200ms ease-in;
+}
+
+.projects-grid img:hover {
+  transform: scale(1.1);
 }
 
 .projects-row-b-right {
