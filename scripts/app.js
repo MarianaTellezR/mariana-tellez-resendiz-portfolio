@@ -8,7 +8,6 @@ var intervalId = setInterval(function () {
   document.getElementById("career-heading").innerHTML = headings[i];
   if (i == headings.length - 1) {
     i = 0;
-    cleanInterval(intervalId);
   } else {
     i++;
   }
