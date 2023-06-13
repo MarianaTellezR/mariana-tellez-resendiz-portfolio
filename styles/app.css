@@ -257,6 +257,27 @@ li.active a {
   border-image-slice: 3;
 }
 
+/* ABOUT.HTML */
+.information-about-section {
+  margin: 15px auto;
+  padding: 30px;
+  padding-bottom: 10px;
+  width: 70%;
+  max-width: 800px;
+}
+
+.careers-listing {
+  padding: 20px 5px;
+}
+
+.careers-listing p {
+  text-align: center;
+}
+
+.icons-below-mariana {
+  padding-bottom: 20px;
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: 36px;
