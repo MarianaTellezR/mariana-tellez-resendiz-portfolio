@@ -299,6 +299,14 @@ li.active a {
   border-radius: 50%;
 }
 
+/* PROJECTS ABOUT SECTION */
+.projects-about-section {
+  display: block;
+  margin: 25px auto;
+  padding: 10px 5px;
+  width: 85%;
+  max-width: 900px;
+}
 @media (max-width: 600px) {
   h1 {
     font-size: 36px;
