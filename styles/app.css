@@ -366,6 +366,92 @@ ol {
   list-style: circle;
 }
 
+/* PROJECTS.HTML */
+.heading-projects {
+  display: block;
+  margin: 30px auto;
+  padding: 15px;
+  width: 75%;
+  max-width: 900px;
+}
+
+.list-projects-section {
+  display: block;
+  margin: 18px auto;
+  width: 78%;
+  max-width: 900px;
+}
+
+.img-skill-project {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.button-launch-project-a {
+  background-color: #626bbd;
+  color: white;
+  text-decoration: none;
+  margin: 10px 5px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.button-launch-project-a:hover {
+  cursor: pointer;
+  background-color: #2d3963;
+}
+
+.button-launch-project-b {
+  background-color: #ad4dc5;
+  color: white;
+  text-decoration: none;
+  margin: 10px 5px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.button-launch-project-b:hover {
+  cursor: pointer;
+  background-color: #8725a0;
+}
+
+.button-launch-project-c {
+  background-color: #c54581;
+  color: white;
+  text-decoration: none;
+  margin: 10px 5px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.button-launch-project-c:hover {
+  cursor: pointer;
+  background-color: #8a345c;
+}
+
+.button-launch-project-d {
+  background-color: #e75c44;
+  color: white;
+  text-decoration: none;
+  margin: 10px 5px;
+  padding: 12px 15px;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+.button-launch-project-d:hover {
+  cursor: pointer;
+  background-color: #ee9750;
+}
+
+.project-images {
+  border: 3px solid #ffffff;
+  box-shadow: 10px 10px 42px rgba(0, 0, 0, 0.2);
+}
+/* SMALL DEVICES */
 @media (max-width: 600px) {
   h1 {
     font-size: 36px;
