@@ -451,6 +451,12 @@ ol {
   border: 3px solid #ffffff;
   box-shadow: 10px 10px 42px rgba(0, 0, 0, 0.2);
 }
+
+.btn-links-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 /* SMALL DEVICES */
 @media (max-width: 600px) {
   h1 {
@@ -459,5 +465,11 @@ ol {
   }
   .hero-buttons {
     text-align: center;
+  }
+  .btn-links-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15px;
   }
 }
