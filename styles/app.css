@@ -455,7 +455,6 @@ ol {
 .btn-links-projects {
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
 /* SMALL DEVICES */
 @media (max-width: 600px) {
