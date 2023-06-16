@@ -466,9 +466,10 @@ ol {
   max-width: 1000px;
 }
 
-.element-contact {
-  display: flex;
-  flex-direction: row;
+.info-contact {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
 }
 
 .icon-contact-section {
@@ -526,10 +527,5 @@ ol {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 15px;
-  }
-  .element-contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center !important;
   }
 }
